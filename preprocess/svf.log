@@ -1,0 +1,337 @@
+clang_O1
+['cmp.bc']
+cmp
+../bin/spa ./bitcode/clang_O1/cmp.bc
+
+*********CallGraph Stats***************
+################ (program : bitcode/clang_O1/cmp)###############
+-------------------------------------------------------
+CalRetPairInCycle   0
+TotalEdge           686
+TotalNode           186
+NodeInCycle         0
+TotalCycle          0
+MaxNodeInCycle      0
+#######################################################
+
+*********General Stats***************
+################ (program : bitcode/clang_O1/cmp)###############
+BitCastNumber       102
+LocalVarInRecur     0
+TotalCallSite       686
+IndCallSites        6
+NonPtrObj           239
+VarArrayObj         20
+TotalPTAPAGEdges    2284
+CallsNum            211
+TotalObjects        405
+TotalPAGEdges       17762
+BBWith3Succ         21
+ConstArrayObj       1
+TotalPointers       9503
+AddrsNum            680
+FIObjNum            12
+ConstStructObj      0
+TotalFieldObjects   121
+LoadsNum            637
+FSObjNum            392
+ReturnsNum          56
+BBWith2Succ         731
+HeapObjs            33
+MaxStructSize       29
+CopysNum            1784
+FunctionObjs        186
+GepsNum             791
+StoresNum           478
+GlobalObjs          39
+StackObjs           63
+VarStructObj        26
+-------------------------------------------------------
+#######################################################
+
+*********Constraint Graph Stats***************
+################ (program : bitcode/clang_O1/cmp)###############
+-------------------------------------------------------
+AvgIn/OutEdge       1.05966
+AvgIn/OutAddrEdge   0.229297
+AvgIn/OutCopyEdge   0.666518
+AvgIn/OutLoadEdge   0.101069
+MaxInAddrEdge       1
+MaxOutStoreEdge     13
+MaxInStoreEdge      9
+AvgIn/OutStoreEdge  0
+MaxOutLoadEdge      10
+MaxInLoadEdge       4
+NumOfCGNode         10189
+TotalValidNode      2246
+NumOfStores         141
+MaxOutAddrEdge      115
+TotalValidObjNode   419
+MaxOutCopyEdge      54
+NumOfAddrs          515
+NumOfCGEdge         1865
+NumOfCopys          761
+NumOfGeps           736
+NumOfLoads          227
+MaxInCopyEdge       11
+#######################################################
+
+*********Andersen Pointer Analysis Stats***************
+################ (program : bitcode/clang_O1/cmp)###############
+-------------------------------------------------------
+AvgPtsSetSize       0.205001
+CopyGepTime         0.03
+AvgTopLvlPtsSize    1.09353
+UpdateCGTime        0
+TotalTime           0.061
+SCCMergeTime        0
+SCCDetectTime       0.005
+CollapseTime        0
+LoadStoreTime       0.002
+PointsToConstPtr    10
+TotalPointers       9503
+TotalObjects        526
+PointsToBlkPtr      0
+NumOfFieldExpand    0
+CopyProcessed       518
+NumOfSFRs           0
+GepProcessed        659
+StoreProcessed      138
+Pointers            9474
+DYFieldPtrs         29
+NullPointer         50
+DYFieldObjs         121
+NodesInCycles       152
+MaxPtsSetSize       13
+Iterations          3
+IndCallSites        6
+IndEdgeSolved       6
+TotalPWCCycleNum    14
+AddrProcessed       518
+NumOfSCCDetect      3
+LoadProcessed       235
+TotalCycleNum       32
+MemObjects          405
+MaxNodesInSCC       24
+#######################################################
+
+****Memory SSA Statistics****
+
+************************
+################ (program : bitcode/clang_O1/cmp)###############
+-------------------------------------------------------
+AverageRegSize      1.24167
+GenRegionTime       0.008
+TotalMSSATime       0.015
+SSARenameTime       0
+GenMUCHITime        0.005
+InsertPHITime       0
+StoreHasChi         140
+LoadHasMu           245
+CSHasMu             109
+CSHasChi            61
+CSChiNode           66
+StoreChiNode        127
+FunRetMu            154
+FunEntryChi         161
+MaxRegSize          11
+CSMuNode            118
+BBHasMSSAPhi        104
+LoadMuNode          206
+MemRegions          120
+MSSAPhi             229
+FunHasEntryChi      58
+FunHasRetMu         103
+#######################################################
+
+****SVFG Statistics****
+
+************************
+################ (program : bitcode/clang_O1/cmp)###############
+-------------------------------------------------------
+AvgWeight           1.11193
+ConnDirEdgeTime     0
+TotalTime           0.002
+ConnIndEdgeTime     0
+OptTime             0.001
+TLNodeTime          0
+ATNodeTime          0.001
+MaxIndOutDeg        54
+AvgIndOutDeg        2
+AvgIndInDeg         1
+MaxOutDegree        62
+MaxInDegree         23
+AvgOutDegree        1
+DirectRetEdge       22
+Addr                518
+ActualParam         0
+ActualOut           30
+FormalIn            100
+TotalEdge           2603
+MaxIndInDeg         23
+TotalNode           2356
+ActualRet           0
+Copy                124
+FormalRet           0
+ActualIn            3
+IndRetEdge          63
+AvgInDegree         1
+FormalOut           9
+Gep                 791
+Load                245
+PHI                 282
+IndCallEdge         134
+DirectCallEdge      162
+MSSAPhi             85
+DirectEdge          1924
+Store               168
+FormalParam         0
+IndirectEdge        679
+IndirectEdgeLabels  755
+#######################################################
+
+*********CallGraph Stats***************
+################ (program : bitcode/clang_O1/cmp)###############
+-------------------------------------------------------
+CalRetPairInCycle   0
+TotalEdge           682
+TotalNode           186
+NodeInCycle         0
+TotalCycle          0
+MaxNodeInCycle      0
+#######################################################
+
+*********General Stats***************
+################ (program : bitcode/clang_O1/cmp)###############
+BitCastNumber       102
+LocalVarInRecur     0
+TotalCallSite       686
+IndCallSites        6
+NonPtrObj           239
+VarArrayObj         20
+TotalPTAPAGEdges    2284
+CallsNum            211
+TotalObjects        405
+TotalPAGEdges       17762
+BBWith3Succ         21
+ConstArrayObj       1
+TotalPointers       9503
+AddrsNum            680
+FIObjNum            12
+ConstStructObj      0
+TotalFieldObjects   121
+LoadsNum            637
+FSObjNum            392
+ReturnsNum          56
+BBWith2Succ         731
+HeapObjs            33
+MaxStructSize       29
+CopysNum            1784
+FunctionObjs        186
+GepsNum             791
+StoresNum           478
+GlobalObjs          39
+StackObjs           63
+VarStructObj        26
+-------------------------------------------------------
+#######################################################
+
+****Flow-Sensitive Pointer Analysis Statistics****
+
+************************
+################ (program : bitcode/clang_O1/cmp)###############
+-------------------------------------------------------
+AverageSCCSize      4.97143
+AvgINPtsSize        1.44162
+AvgTopLvlPtsSize    1.08338
+AvgAddrTakenVarPts  0.639241
+AvgPtsSize          1.12552
+PhiTime             0.001
+StoreTime           0
+LoadTime            0
+ProcessTime         0.011
+TotalTime           0.028
+GepTime             0.002
+SCCTime             0.001
+PropagationTime     0.011
+AddrTime            0
+SolveTime           0.027
+DirectPropaTime     0.002
+AvgOUTPtsSize       1.34667
+UpdateCGTime        0
+Strong/WeakUpdTime  0
+IndirectPropaTime   0.001
+CopyTime            0
+NumOfSCC            35
+MaxSCCSize          28
+NumOfNodesInSCC     174
+ProcessedFRet       0
+ProcessedCopy       250
+NumOfAddrTakenVar   158
+MaxINPtsSize        2
+MaxTopLvlPtsSize    13
+VarHaveOUT_PHI      0
+VarHaveIN_PHI       36
+VarHaveOUT_ST       75
+AO_SNodesHaveIN     3
+MaxAddrTakenVarPts  2
+Pointers            9474
+FO_SNodesHaveIN     0
+StrongUpdates       89
+AI_SNodesHaveOUT    0
+VarHaveIN_LD        97
+SNodesHaveOUT       74
+PHI_SNodesHaveIN    36
+SNodesHaveIN        154
+VarHaveOUT_AI       0
+FI_SNodesHaveIN     5
+TotalPointers       9503
+ProcessedStore      381
+VarHaveOUT_LD       0
+FO_SNodesHaveOUT    0
+CopysNum            124
+Iterations          4
+NullPointer         52
+ProcessedLoad       515
+DYFieldObjs         121
+FI_SNodesHaveOUT    0
+TotalObjects        526
+VarHaveOUT_FI       0
+MemObjects          405
+DYFieldPtrs         29
+ProcessedAParam     0
+IndEdgeSolved       2
+ProcessedMSSANode   466
+StoresNum           168
+AO_SNodesHaveOUT    0
+VarHaveIN_FI        15
+ProcessedGep        1622
+MaxPtsSize          13
+VarHaveOUT_AO       0
+LD_SNodesHaveIN     67
+ProcessedPhi        610
+PointsToConstPtr    0
+LD_SNodesHaveOUT    0
+VarHaveIN           197
+PointsToBlkPtr      9
+ST_SNodesHaveIN     43
+ST_SNodesHaveOUT    74
+PHI_SNodesHaveOUT   0
+VarHaveOUT          75
+VarHaveIN_FO        0
+PotentialVarHaveIN  1010
+PotentialVarHaveOUT 316
+ProcessedAddr       1036
+VarHaveEmptyIN      0
+VarHaveOUT_FO       0
+AI_SNodesHaveIN     0
+VarHaveIN_AI        0
+VarHaveEmptyOUT     0
+VarHaveIN_AO        6
+MaxOUTPtsSize       2
+VarHaveIN_ST        43
+#######################################################
+
+processing time = 0.17373394966125488s
+mv SVFOutput.data ./temp_data/clang_O1/cmp
+

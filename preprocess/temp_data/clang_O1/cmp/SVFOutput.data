@@ -1,0 +1,2 @@
+sigsegv_handler 1067 simple_is_near_this
+sigsegv_handler 1067 mincore_is_near_this

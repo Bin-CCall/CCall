@@ -1,0 +1,13 @@
+(dp0
+S'sigsegv_handler'
+p1
+(lp2
+S'0x403916'
+p3
+aS'0x40396b'
+p4
+aS'0x403995'
+p5
+aS'0x4039af'
+p6
+as.
